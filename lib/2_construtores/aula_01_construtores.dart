@@ -1,3 +1,5 @@
+// ignore_for_file: unused_local_variable
+
 import 'package:dart_poo/2_construtores/pessoa.dart';
 
 void main() {
@@ -21,4 +23,6 @@ void main() {
   );
 
   var pessoaVazia = Pessoa.vazia();
+
+  var pessoaFabrica = Pessoa.fabrica('Leonardo');
 }
